@@ -1,0 +1,19 @@
+html {
+  /* procentage of users browser font-size setting */
+  font-size: 62.5%;
+}
+
+header {
+  background-image: url("../images/Instagram/header-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider-products {
+  max-width: 20rem;
+}
+
+.footer .footer-socialmedia {
+  display: flex;
+  flex-direction: column;
+}
