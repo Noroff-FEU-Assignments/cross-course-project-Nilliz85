@@ -149,7 +149,7 @@ html {
 }
 
 .about-us-text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #0a3641;
 }
 
@@ -162,7 +162,6 @@ html {
   text-decoration: underline;
   font-style: oblique;
   float: right;
-  margin-right: 10%;
   color: #0a3641;
   font-size: 2rem;
   transition: all 0.3s;
@@ -178,22 +177,45 @@ html {
 /********************************/
 
 .product-list {
-  position: relative;
   display: flex;
   flex-direction: row;
-  max-width: 22rem;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 10rem;
+  margin-left: 30%;
+  margin-top: 18rem;
+  margin-bottom: 10rem;
 }
 
 .product {
-  float: left;
   background-color: #5f9fad;
   margin-right: 10px;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 .product-img {
   height: 20rem;
+}
+
+/********************************/
+/* instagram Section */
+/********************************/
+
+.instagram-feed {
+  margin-left: 33rem;
+  margin-bottom: 10rem;
+}
+
+/********************************/
+/* Email Section */
+/********************************/
+
+.email-input {
+  margin-left: 72.5rem;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  font-style: oblique;
+  font-weight: 500;
 }
 
 /********************************/
