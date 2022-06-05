@@ -14,25 +14,6 @@ html {
   margin: 0 auto;
 }
 
-.grid {
-  display: grid;
-  row-gap: 9.6rem;
-  column-gap: 6.4rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--center-v {
-  align-items: center;
-}
-
 /********************************/
 /* HEADER */
 /********************************/
@@ -81,7 +62,7 @@ html {
 /********************************/
 
 .shoppingcart-nav {
-  position: fixed;
+  position: absolute;
   right: 5%;
 }
 
@@ -123,7 +104,7 @@ html {
 }
 
 .scroll-down {
-  position: fixed;
+  position: absolute;
   top: 75%;
   left: 49%;
   color: #fff;
@@ -179,7 +160,6 @@ html {
   justify-content: center;
   max-width: 22rem;
   padding-bottom: 10rem;
-  margin-left: 30%;
 }
 
 .product {
