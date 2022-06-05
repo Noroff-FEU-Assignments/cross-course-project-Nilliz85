@@ -181,8 +181,6 @@ html {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   max-width: 22rem;
   padding-bottom: 10rem;
 }
@@ -190,15 +188,14 @@ html {
 .product {
   float: left;
   background-color: #5f9fad;
-  width: 33.33%;
-  gap: 2rem;
-  padding: 5rem;
+  margin-right: 10px;
+  padding: 2rem;
 }
 
 .product-img {
   height: 20rem;
-  width: 33.33%;
 }
+
 /********************************/
 /* Footer Section */
 /********************************/
