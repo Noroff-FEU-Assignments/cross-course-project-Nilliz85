@@ -120,6 +120,10 @@ html {
 /* About Section */
 /********************************/
 
+.about-us {
+  display: flex;
+}
+
 .about-us-text {
   font-size: 1.8rem;
   color: #0a3641;
