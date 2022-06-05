@@ -1,0 +1,318 @@
+/********************************/
+/* General */
+/********************************/
+
+html {
+  /* procentage of users browser font-size setting */
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+/********************************/
+/* HEADER */
+/********************************/
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  height: 8rem;
+}
+
+.logo {
+  height: 5rem;
+  margin-left: 5rem;
+  margin-right: 10rem;
+}
+
+/********************************/
+/* Navigation */
+/********************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #0a3641;
+  font-weight: 600;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #5f9fad;
+}
+
+/********************************/
+/* Shoppingcart Icon */
+/********************************/
+
+.shoppingcart-nav {
+  position: absolute;
+  right: 5%;
+}
+
+.fa-solid {
+  color: #0a3641;
+  float: right;
+}
+.fa-solid:link,
+.fa-solid:visited {
+  transition: all 0.3s;
+}
+
+.fa-solid:hover,
+.fa-solid:active {
+  color: #5f9fad;
+}
+
+/********************************/
+/* Hero Section */
+/********************************/
+
+.section-hero {
+  background-image: url("../images/instagram/hero-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4.8rem 0 9.6rem 0;
+  height: 55rem;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.scroll-down {
+  position: absolute;
+  top: 75%;
+  left: 49%;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.section-hero .fa-solid {
+  color: #fff;
+  vertical-align: center;
+}
+
+/********************************/
+/* About Section */
+/********************************/
+
+.about-us {
+  display: flex;
+}
+
+.about-us-text {
+  font-size: 1.6rem;
+  color: #0a3641;
+}
+
+.about-header {
+  margin-bottom: 3rem;
+}
+
+.learn-more-link:link,
+.learn-more-link:visited {
+  text-decoration: underline;
+  font-style: oblique;
+  float: right;
+  color: #0a3641;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.learn-more-link:hover,
+.learn-more-link:active {
+  color: #5f9fad;
+}
+
+/********************************/
+/* Product Section */
+/********************************/
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10rem;
+  margin-left: 30%;
+  margin-top: 18rem;
+  margin-bottom: 10rem;
+}
+
+.product {
+  background-color: #5f9fad;
+  margin-right: 10px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.product-img {
+  height: 20rem;
+}
+
+/********************************/
+/* instagram Section */
+/********************************/
+
+.instagram-feed {
+  margin-left: 33rem;
+  margin-bottom: 10rem;
+}
+
+/********************************/
+/* Email Section */
+/********************************/
+
+.email-input {
+  margin-left: 72.5rem;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+/********************************/
+/* Footer Section */
+/********************************/
+
+.footer {
+  background-color: #5f9fad;
+  padding: 12.8rem 0;
+  width: cover;
+  height: 30rem;
+  list-style: none;
+}
+
+.footer-logo {
+  height: 20rem;
+  margin-right: 10rem;
+}
+
+.footer-text {
+  color: #0a3641;
+  text-decoration: none;
+  list-style: none;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.footer {
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  list-style: none;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  line-height: 2rem;
+}
+
+.instagram,
+.facebook {
+  line-height: 3;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #0a3641;
+  margin-top: auto;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-decoration-line: underline;
+  align-items: center;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #0a3641;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #fff;
+}
