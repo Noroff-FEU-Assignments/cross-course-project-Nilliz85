@@ -1,0 +1,131 @@
+/*------------------------- Links -------------------------*/
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #0a3641;
+  padding: 10px;
+}
+
+.cta {
+  background-color: #fff;
+  cursor: pointer;
+  color: #0a3641;
+  border: 2px solid #0a3641;
+  font-size: 1em;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.cta:before {
+  content: "";
+  padding: 10px;
+  background: #5f9fad;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 100px;
+  top: -40px;
+  left: -100px;
+  transition: left ease-in-out 1s;
+  opacity: 0.3;
+}
+
+.cta:hover:before {
+  left: 110%;
+}
+
+.cta-hero,
+.cta-sale {
+  background-color: #f6ce2e;
+  color: #0a3641;
+}
+
+.cta-large {
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.cta-small {
+  padding: 8px 20px;
+  font-size: 0.8em;
+  grid-row: 2/4;
+  grid-column: 2;
+  min-width: 51.2px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.cta-email {
+  background-color: #0a3641;
+  color: #fff;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.products {
+  background-color: #fbfbfb;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.products img {
+  grid-column: -1/1;
+}
+
+.products h3,
+.products h2,
+.products p {
+  grid-column: 1;
+  font-size: 0.9em;
+  margin: 5px;
+}
+
+.products--sale {
+  display: flex;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.footer-link {
+  margin: 15px auto;
+}
+
+.footer-link a {
+  color: #0a3641;
+}
+
+/*------------------------- Email Section -------------------------*/
+
+.email-input {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.email-input input {
+  border: 1px solid #0a3641;
+  margin: 10px 10px;
+  padding: 10px 40px 10px 40px;
+}
+
+/*------------------------- Footer Section -------------------------*/
+
+.footer-social {
+  list-style: none;
+  text-align: center;
+  margin: 50px 90px 50px 50px;
+}
+
+.fa-brands,
+.fa-cart-shopping {
+  color: #0a3641;
+}

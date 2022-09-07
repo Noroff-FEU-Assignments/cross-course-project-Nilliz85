@@ -1,0 +1,177 @@
+/*------------------------- Media queries -------------------------*/
+
+/*---------------------- 400px ----------------------*/
+
+@media (min-width: 400px) {
+  .product-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*---------------------- 600px ----------------------*/
+
+@media (min-width: 600px) {
+  header {
+    justify-content: start;
+  }
+
+  nav {
+    display: block;
+    position: static;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0px;
+  }
+
+  header label {
+    display: none;
+  }
+
+  .about-us {
+    flex-direction: row;
+  }
+
+  .about-us h2 {
+    text-align: left;
+  }
+
+  .about-us-text {
+    text-align: left;
+  }
+
+  .about-text {
+    max-width: 580;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .jacket-specific {
+    flex-direction: column-reverse;
+  }
+
+  .jacket-specific__details {
+    margin-bottom: 50px;
+  }
+
+  .form-wrapper {
+    flex-direction: row;
+  }
+
+  .instagram-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-us-instagram-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*---------------------- 800px ----------------------*/
+
+@media (min-width: 800px) {
+  .cart {
+    position: absolute;
+    top: 23px;
+    right: 100px;
+  }
+
+  .section-hero {
+    background-position-x: right;
+  }
+
+  .section-hero-content {
+    top: 100px;
+    left: 100px;
+    transform: none;
+  }
+
+  .about-text {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: none;
+    margin: 50px auto;
+    text-align: left;
+  }
+  .about-header {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .featured {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-us-instagram {
+    padding: 50px;
+  }
+
+  .instagram-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .instagram-grid-col-2 {
+    grid-column: span 2;
+  }
+
+  .insta {
+    min-width: 20px;
+  }
+
+  .about-us-instagram-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-us-instagram-grid-col-2 {
+    grid-column: span 2;
+  }
+
+  .cta-large {
+    padding: 10px 80px;
+  }
+
+  .product-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jacket-specific {
+    flex-direction: row;
+    margin: 50px auto;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .winner {
+    margin: 200px 150px;
+    padding-top: 50px;
+  }
+
+  .jacket-general {
+    flex-direction: row;
+  }
+}
+
+/*---------------------- 1000px ----------------------*/
+@media (min-width: 1000px) {
+  .checkout-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*---------------------- 1200px ----------------------*/
+@media (min-width: 1200px) {
+  .featured {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 45px 0px 0px 100px;
+  }
+
+  .instagram-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .about-us-instagram {
+    padding: 200px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

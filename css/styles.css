@@ -1,0 +1,122 @@
+@import "imports/links.css";
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+h1,
+h2,
+.logo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #0a3641;
+}
+
+.product-list h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*------------------------- header Section -------------------------*/
+
+.hero-section {
+  background-size: cover;
+  border-top: solid 3px #0a3641;
+  border-bottom: solid 3px #0a3641;
+  min-height: 70vh;
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-logo {
+  max-width: 120px;
+  margin: 5px 10px 0px 10px;
+}
+
+nav {
+  margin-left: 25px;
+  font-size: larger;
+  display: none;
+  position: fixed;
+  top: 45px;
+  background-color: #fff;
+  z-index: 1000;
+  right: 0px;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+footer {
+  background-color: #5f9fad;
+  color: #0a3641;
+}
+
+img {
+  width: 100%;
+}
+
+.contact-checkout-logo {
+  max-width: 300px;
+  margin: 50px auto 60px;
+}
+
+/*------------------------- Footer Section -------------------------*/
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #5f9fad;
+  padding: 50px 0;
+  width: cover;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.footer-logo {
+  height: 136px;
+  width: auto;
+  margin: 70px auto;
+}
+
+.footer nav {
+  background-color: #5f9fad;
+  position: static;
+  display: block;
+  margin: 50px auto;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
